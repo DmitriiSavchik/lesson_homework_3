@@ -1,0 +1,82 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+.block {
+width: 200px;
+height: 200px;
+position: relative;
+}
+.square_1 {
+    width: 26%;
+    height: 26%;
+    background-color: yellow;
+    border-radius: 15%;
+    position: absolute;
+    right: 37%;
+    bottom: 37%; 
+    z-index: 1;
+}
+.square_1:hover{
+    background-color:   blue;
+}
+.square_2 {
+    width: 50%;
+    height: 50%;
+    background-color: green;  
+    position: absolute;
+    right: 25%;
+    bottom: 25%;  
+}
+.square_2:hover{
+    background-color:   blueviolet;
+    z-index: 1;
+    }
+.circle_1 {
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right:  0; 
+}
+.circle_1:hover{
+    background-color: black;
+    z-index: 1;
+}
+.circle_2 {
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right:  0;
+    bottom: 0;
+}
+.circle_2:hover{
+    background-color: cadetblue;
+    z-index: 1;
+}
+.circle_3 {
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+.circle_3:hover{
+    background-color: pink;
+    z-index: 1;
+}
+.circle_4 {
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.circle_4:hover{
+    background-color: grey;
+    z-index: 1;
+}
